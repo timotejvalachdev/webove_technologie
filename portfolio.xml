@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<portfolio>
+    <projects>
+        <project>
+            <name>Projekt 1</name>
+            <description>Zadanie pre predmet Web technológie</description>
+            <technologies>
+                <technology>HTML</technology>
+                <technology>CSS</technology>
+                <technology>JavaScript</technology>
+            </technologies>
+        </project>
+        <project>
+            <name>Projekt 2</name>
+            <description>Zadania z predmetu DSA</description>
+            <technologies>
+                <technology>C++</technology>
+                
+            </technologies>
+        </project>
+    </projects>
+</portfolio>
