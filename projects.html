@@ -85,7 +85,13 @@
                     </div>
                 </div>
             </section>
-            <!-- Call to action section-->
+            <div class="text-center mb-5">
+                <h1 class="display-6 fw-bolder">Súčasne Projekty</h1>
+                <table id="projectsTable" class="table">
+                    <!-- Tu sa budú dynamicky vkladať projekty -->
+                </table>
+            </div>
+
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
@@ -94,7 +100,10 @@
                     </div>
                 </div>
             </section>
+
         </main>
+
+
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
@@ -104,18 +113,10 @@
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
         <script src="js/scripts.js"></script>
-        <script>
-            document.querySelectorAll('.gallery-image').forEach(item => {
-                item.addEventListener('click', event => {
-                    const src = item.getAttribute('src');
-                    document.getElementById('modalImage').setAttribute('src', src);
-                    new bootstrap.Modal(document.getElementById('imageModal')).show();
-                });
-            });
-        </script>
+
     </body>
 </html>
