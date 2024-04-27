@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.gallery img {
+    flex: 1;
+    max-width: calc(33.333% - 0px);
+    height: auto;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.gallery img:nth-child(3n+1) {
+    max-height: 400px;
+}
+.gallery img:nth-child(3n+2) {
+    max-height: 400px;
+}
+.gallery img:nth-child(3n) {
+    max-height: 600px;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
