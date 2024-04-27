@@ -1,6 +1,7 @@
 # webove_technologie
 Tento repositar bude obsahovat zdrojovy kod stranky k predmetu Web technologie.
 Na stránke bol použitý bootstrap pre moderný design a responzívnost stranky pre rôzne zariadenia
+Zobrazenie dát z xml tabulky je implementované v subpage projects, kde sú vypísane súčasne projekty na ktorých sa pracuje
 
 Na Rozbehnutie tejto web stranky su 2 spôsoby:
       1. Klasické Stiahnutie a rozbaliene si repozitara do priečinka a otvorit stranku. (odporúčam pozit webstorm ktory je zároven aj localhost)
